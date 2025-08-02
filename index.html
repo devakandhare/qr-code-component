@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(212, 45%, 89%);
+      }
+      .qr-code-container {
+        width: 280px;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .card {
+        background-color: #fff;
+        border: 1px solid hsl(216, 15%, 48%);
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .header {
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+        text-align: center;
+      }
+      .content {
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-size: 15px;
+        font-style: normal;
+        text-align: center;
+      }
+      .qr-code-image {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qr-code-container">
+      <div class="card">
+        <div>
+          <img
+            class="qr-code-image"
+            src="./images/image-qr-code.png"
+            alr="qr code image"
+            width="100%"
+            height="200px"
+          />
+        </div>
+
+        <h1 class="header">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="content">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Devram Kandhare</a>.
+      </div>
+    </div>
+  </body>
+</html>
